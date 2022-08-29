@@ -159,7 +159,7 @@ function procesarCompra(e) {
                     setTimeout(() => {
                         compra.vaciarLocalStorage();
                         enviado.remove();
-                        window.location = "index.html";
+                        window.location = "../index.html";
                     }, 2000);
                 }, (err) => {
                     cargandoGif.style.display = 'none';
